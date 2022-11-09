@@ -48,9 +48,9 @@ class MyApp extends StatelessWidget {
 
         )
       ),
-      home: const HomePage(),
-      // initialRoute: RouteName.splashScreen,
-      // onGenerateRoute: Routes.generateRoute,
+     
+      initialRoute: RouteName.loginView,
+      onGenerateRoute: Routes.generateRoute,
     );
   }
 }
