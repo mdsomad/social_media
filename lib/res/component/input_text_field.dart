@@ -30,11 +30,13 @@ class InputTextField extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 0),
       child: TextFormField(
+        obscureText: obsureText,
         controller: myController,
         focusNode: focusNode,
         onFieldSubmitted: onFitedSubmittedValue,
         validator: onValidator,
         keyboardType: keyBoradType ,
+        cursorColor: AppColors.primaryTextTextColor,
         style: Theme.of(context).textTheme.bodyText2!.copyWith(height: 0 ,fontSize: 19),
         decoration: InputDecoration(
           hintText: hint,

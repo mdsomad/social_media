@@ -22,7 +22,7 @@ class RoundButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: color, 
+      color: AppColors.primaryButtonCotor, 
       borderRadius: BorderRadius.circular(50),
       child: InkWell(
         onTap: loading ? null :onPress,

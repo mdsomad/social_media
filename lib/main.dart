@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tech_media/firebase_options.dart';
 import 'package:tech_media/home_page.dart';
 import 'package:tech_media/res/color.dart';
@@ -7,6 +8,7 @@ import 'package:tech_media/res/fonts.dart';
 import 'package:tech_media/utils/routes/route_name.dart';
 import 'package:tech_media/utils/routes/routes.dart';
 import 'package:tech_media/view/splash/splash_screen.dart';
+import 'package:tech_media/view_model/signup/signUp_controller.dart';
 
 void main() async{
    WidgetsFlutterBinding.ensureInitialized();
@@ -49,7 +51,7 @@ class MyApp extends StatelessWidget {
         )
       ),
      
-      initialRoute: RouteName.loginView,
+      initialRoute: RouteName.splashScreen,
       onGenerateRoute: Routes.generateRoute,
     );
   }

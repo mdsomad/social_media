@@ -22,6 +22,7 @@ class AppColors {
   static const Color textFieldDefaultBorderColor  =  Color(0xfffDFDFE1);
   static const Color textFieldFocusBorderColor =  Color.fromRGBO(19, 103, 33 , 1);
 
+  static const Color primaryButtonCotor = Color(0xff242424) ;
 
   static const Color alertColor =  Color(0xffff0222);
   static const Color whiteColor =  Color(0xffffffff);
